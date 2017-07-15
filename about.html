@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="pinterest" content="nopin"/>
+
+    <title>alexia bareno &mdash; about</title>
+
+    <!--TAB ICON-->
+    <link rel="icon" href="Images/icon.png">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- Styling -->
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<!-- NAVIGATION BAR -->
+<nav id="nav">
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">alexia bareno</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">portfolio</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="photography.html">play</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">portfolio</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="photography.html">play</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- ABOUT ME -->
+<div id="about">
+    <div class="text">
+        <div class="exception2 wrapper picture">
+            <img id="me" src= "Images/sunshine.JPG">
+        </div>
+
+        <div class="exception2 wrapper">
+            <h1>hey there!</h1>
+            <p>
+                I’m Alexia, an aspiring UX Designer who is passionate about learning how to solve unmet problems
+                through deep user research, engaging storytelling, and feedback-validated design.
+            </p>
+        </div>
+
+        <div class="exception2 wrapper">
+            <h3>past</h3>
+            <p>
+                I recently earned my B.S. in
+                <a class="link" target="_blank" href="https://www.informatics.uci.edu/">Informatics at UC Irvine</a>
+                with a specialization in Human-Computer Interaction. As an IT Intern at Oakwood Worldwide, I had the
+                opportunity to conduct user research, wireframing, and usability testing to design an inventory app
+                for the company's managers.
+            </p>
+
+            <h3>present</h3>
+            <p>
+                I've discovered my passion for UX, which is why although I'm done with college, I'm continuing my
+                education through the Interaction Design Foundation. I’m currently looking for a UX Design
+                internship as I'd like to learn from professionals and help deliver experiences that drive positive
+                change in people's everyday lives.
+            </p>
+        </div>
+
+        <div class="exception2 wrapper">
+            <h1>toolbox</h1>
+            <p>
+                <b>Design: </b>Axure, Adobe Photoshop/Illustrator/XD, InVision
+            </p>
+            <p>
+                <b>Development: </b>HTML 5, CSS3, Bootstrap
+            </p>
+            <p>
+                <b>Other: </b>UsabilityHub.com, Google Analytics
+            </p>
+        </div>
+
+        <div class="exception2 wrapper">
+            <h1>let's talk!</h1>
+            <p>
+                Email me at <a class="link" href="mailto:alexia.bareno@gmail.com">alexia.bareno@gmail.com</a> or
+                <a class="link" target="_blank" href="https://www.linkedin.com/in/alexiabareno/">connect</a> with me
+                through LinkedIn.
+            </p>
+        </div>
+
+        <div class="exception2 wrapper">
+            <h1>resume</h1>
+            <p>
+                View my <a target="_blank" href="Images/resume-alexia%20bareno.pdf" class="link">resume</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--FOOTER-->
+<footer>
+    <div id="footwrapper">
+        <div id="uparrow">
+            <a href="#nav" class="smoothScrollTarget btn-floating btn-large waves-effect waves-light yellow accent-4">
+                <i class="material-icons">arrow_upward</i>
+            </a>
+        </div>
+        <div><p>design + content &copy;2017 alexia bareno</p></div>
+    </div>
+</footer>
+
+<!--jQuery-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script src="prognroll-master/src/prognroll.js"></script>
+
+<script>
+    $( document ).ready(function() {
+        /**PROGRESS BAR (https://github.com/mburakerman/prognroll)/**/
+        $("body").prognroll({
+            height: 5, //Progress bar height
+            color: "#BFD8D2", //Progress bar background color
+            custom: false //If you make it true, you can add your custom div and see it's scroll progress on the page
+        });
+    });
+</script>
+</body>
+</html>

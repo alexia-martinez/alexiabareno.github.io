@@ -1,2 +1,0 @@
-# alexiabareno.github.io
-Portfolio

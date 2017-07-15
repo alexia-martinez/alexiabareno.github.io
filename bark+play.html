@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="pinterest" content="nopin"/>
+
+    <title>alexia bareno &mdash; bark+play</title>
+
+    <!--TAB ICON-->
+    <link rel="icon" href="Images/icon.png">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- Styling -->
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<!-- NAVIGATION BAR -->
+<nav id="nav">
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">alexia bareno</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">portfolio</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="photography.html">play</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">portfolio</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="photography.html">play</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ABOUT -->
+<div id="about">
+    <div class="text">
+        <div class="wrapper">
+            <h1 id="greeting">bark+play;</h1>
+            <p>
+                Bark+Play helps owners socialize their dogs by finding play dates for them. It also
+                encourages people to build stronger interpersonal relationships with others in their community.
+            </p>
+
+            <p>
+                This is a personal project inspired by my experience with socializing my dog and my interactions with
+                members of my community.
+            </p>
+
+            <p>
+                <b>Role:</b> As a UX Designer, I conducted interviews to understand the problem and users, did
+                some competitive analysis, developed personas, brainstormed potential solutions, mapped the task
+                flow, developed a brand, and created UI mockups.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--PROBLEM-->
+<div id="problem">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>the initial problem</h1>
+            <p>
+                Socializing a dog is an important responsibility as an owner. A lack of socialization may lead dogs to
+                become defensive at the sight of other dogs. Like us, dogs learn through experience and allowing them to
+                experience the world is the best way to teach them how to behave properly. <b>How, though, do we help
+                teach dogs who aren’t constantly exposed to other dogs to behave properly?</b>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--SOCIALIZING-->
+<div id="socializing">
+    <div class="text">
+        <div class="wrapper">
+            <h1>socializing is hard</h1>
+            <div class="imagegallery">
+                <img src="Images/BARK+PLAY/personas.png"/>
+            </div>
+
+            <p>
+                I conducted qualitative interviews with five dog owners (ages 18-24) who enjoy walking their dogs or
+                taking them to parks. I wanted to understand how they go about socializing their dogs and what the
+                challenges are.
+            </p>
+
+            <p>
+                I asked them questions about their experiences with walking their dogs, meeting other dog owners, and
+                dealing with socialization issues.
+            </p>
+
+            <h3>key insights and opportunities</h3>
+            <ul>
+                <li>Because of time, owners tug on their dog's leash to keep them walking rather than stopping to
+                    socialize</li>
+            </ul>
+            <p>
+                <b>How might we...</b> encourage owners to let their dogs interact with others?
+            <ul>
+                <li>Dogs naturally want to interact with other dogs because they're curious, but we as owners
+                    sometimes prevent them from doing so</li>
+            </ul>
+            </p>
+            <p>
+                <b>How might we...</b> create/facilitate time for owners to let their dogs interact with other dogs?
+            <ul>
+                <li>Sometimes, dogs may not come across other dogs on their regular walks which is a lost
+                    opportunity</li>
+            </ul>
+            </p>
+            <p>
+                <b>How might we...</b> assist owners to form connections with other owners within a neighborhood?
+            <ul>
+                <li>It can feel odd sometimes to strike up conversations with others during a walk if there is no common
+                    ground</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--NEW PROBLEM-->
+<div id="newproblem">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>the new problem</h1>
+            <p>
+                After the interviews, I felt that the socialization issue was larger in that it wasn’t just something
+                that dogs had to improve on, but also us as members of a community. I believe that we are all attached
+                to our phones &mdash; myself included &mdash;
+                because most of us use them to access important information like our bank accounts,
+                emails, and social media. In relying on our phones to connect to our world, we become detached from our
+                physical community. I understand why it’s hard for everyone to disconnect &mdash; I empathize because I
+                also struggle &mdash; but our phone doesn’t have to be a problem. It can instead be the medium for
+                solving the socialization issue present in our community and subsequently, our dogs.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--COMPETITIVE ANALYSIS-->
+<div id="competitive">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>what's out there?</h1>
+            <p>
+                I brainstormed possible ways to help people form connections within their community with the goal of
+                also helping dogs socialize. I didn't limit myself. At this point, any idea was a good one.
+            </p>
+
+            <p>
+                When reviewing what I had come up with, I realized that some ideas were costly &mdash; a public portal
+                that works in conjuction with the city's animal shelter database of registered dogs where registered
+                owners can request to meet up with others... pretty messy and pretty costly. Also, the problem with
+                this potential solution is that it impinges on the public's choice to participate.
+            </p>
+
+            <p>
+                Since nearly everyone uses their phone for daily tasks, I decided to design an app that allows owners to
+                voluntarily sign up to meet with other owners in the area. Before starting, I did some research to
+                see if there were any existing apps and to take note of what I thought they were doing right and what
+                they could improve:
+            </p>
+
+            <h1><a class="link" href="http://www.twindog.co">Twindog</a></h1>
+            <h3>main features</h3>
+            <ol>
+                <li>Swipe left to pass, right to match/request to meet up</li>
+                <li>Profile &mdash; picture of dog and owner; dog's age, name, and breed</li>
+                <li>Matches are suggested based on location</li>
+            </ol>
+
+            <h3>notable features</h3>
+            <ol>
+                <li>Feedback is simple and informational &mdash; if swipe left (pass) image of dog moves left, if swipe
+                    right (accept) and it's a match, the options to send message or keep playing (find someone else)
+                    pops up</li>
+                <li>Very minimal design helps users focus on the dogs and people, not the app</li>
+                <li>Less keyboard, more touch approach &mdash; the conversation happens away from the screen</li>
+            </ol>
+
+            <h3>possible issues</h3>
+            <ol>
+                <li>App is easily confused with a dating app because it's marketed that way, someone who only wants to
+                    socialize with others may not want to use it</li>
+                <li>No way for users to look up dogs they've met or liked</li>
+                <li>No way to filter dogs based on age, proximity, and such</li>
+            </ol>
+
+            <h1><a class="link" href="http://meetmydogapp.com/">Meet My Dog</a></h1>
+            <h3>main features</h3>
+            <ol>
+                <li>Activity: user can check-in at a location to notify friends where they are and invite them to
+                    join</li>
+                <li>Proximity: shows list of dogs in the area</li>
+                <li>Chats: private messages between users</li>
+                <li>Friends: add users as friends for a closer network</li>
+                <li>Account: shows owner and dog info (dog name, location, sex, breed)</li>
+            </ol>
+
+            <h3>notable features</h3>
+            <ol>
+                <li>Users are told how close other dogs are to their current location and provides the name and picture
+                    of the dog</li>
+                <li>Users can search for locations to check in to</li>
+                <li>Private messaging supports image attachment</li>
+            </ol>
+
+            <h3>possible issues</h3>
+            <ol>
+                <li>Much of the design and function is taken from Facebook</li>
+                <li>GPS continually runs in the background which may drain battery life very quickly</li>
+                <li>UI appears a bit complex &mdash; users may focus more on using the app than finding the perfect
+                    friend for their dog</li>
+            </ol>
+
+        </div>
+    </div>
+</div>
+
+<!--EXPERIENCE-->
+<div id="experience">
+    <div class="text">
+        <div class="wrapper">
+            <h1>creating the experience</h1>
+            <p>
+                I designed a map of a system of actions for a task flow that encompasses the entire experience
+                for a user.
+            </p>
+
+            <h3>system map</h3>
+            <div class="imagegallery">
+                <img src="Images/BARK+PLAY/systemmap.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--UNDERSTANDING-->
+<div id="understanding">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>understanding the user</h1>
+            <p>
+                Since I now had a better understanding of the experience and of my potential users, I proceeded to create
+                a storyboard to help frame the context of when someone would use the app.
+            </p>
+
+            <div class="imagegallery">
+                <img src="Images/BARK+PLAY/storyboard.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--BRAND-->
+<div id="brand">
+    <div class="text">
+        <div class="wrapper">
+            <h1>creating a brand</h1>
+            <p>
+                I created a style tile to develop the brand for my app. I chose colors that conveyed the feelings of
+                fun, warmth, and joy which comes when meeting other people and their dogs.
+            </p>
+
+            <div class="imagegallery">
+                <img class="smaller" src="Images/BARK+PLAY/brand.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--LOFI SCREEN FLOWS-->
+<div id="lofi">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>screen flows (lo-fi)</h1>
+            <p>
+                I sketched a series of screens that capture a user's experiences before, during, and after meeting up
+                with another owner.
+            </p>
+
+            <div class="imagegallery">
+                <img src="Images/BARK+PLAY/sketchflow.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--HIFI SCREEN FLOWS-->
+<div id="hifi">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>hi-fi screens</h1>
+            <p>
+                I designed the final screens using the color palette and elements from my style tile.
+            </p>
+            <p>
+                I tried to keep my designs as minimal as possible in order to emphasize the experience that happens
+                beyond the screen.
+            </p>
+
+            <div class="imagegallery">
+                <img src="Images/BARK+PLAY/hifi.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--USER FLOW-->
+<div id="flow">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>user flow</h1>
+        </div>
+
+        <div class="imagegallery">
+            <img src="Images/BARK+PLAY/hififlow.png"/>
+            <img class="smaller" src="Images/BARK+PLAY/key.png"/>
+        </div>
+    </div>
+</div>
+
+<!--KEY SCREENS-->
+<div id="key">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>key screens</h1>
+
+            <!--NEARBY DOGS-->
+                <div class="exception2 wrapper keyscreen">
+                    <img class="border" src= "Images/BARK+PLAY/iPhone%2067%20–%2013.png">
+                </div>
+                <div class="exception2 wrapper">
+                    <h3>nearby dogs</h3>
+                    <p>
+                        The app uses the phone's GPS feature to determine where a user is and to share that with nearby
+                        dog owners. Safety is a priority, so this feature is only in effect if a user gives permission
+                        &mdash; it can be changed in the app's settings so that it doesn't use GPS at all or so that it
+                        only uses it when the app has been opened. If GPS isn't used, then only the user's city is
+                        displayed on the list of nearby dogs.
+                    </p>
+                </div>
+
+            <!--PRIVATE MESSAGING-->
+                <div class="exception2 wrapper keyscreen">
+                    <img class="border" src= "Images/BARK+PLAY/iPhone%2067%20–%2012.png">
+                </div>
+                <div class="exception2 wrapper">
+                    <h3>private messaging</h3>
+                    <p>
+                        Sometimes a user may want to ask more questions about someone's dog before scheduling a play
+                        date, or perhaps a user may want to suggest a meet up location. Maybe they just want to share
+                        pictures from their last play date. For many reasons, a private messaging feature allows users
+                        to get in touch and keep in touch.
+                    </p>
+                </div>
+
+            <!--PROFILE PAGE-->
+                <div class="exception2 wrapper keyscreen">
+                    <img class="border" src= "Images/BARK+PLAY/iPhone%2067%20–%207.png">
+                </div>
+                <div class="exception2 wrapper">
+                    <h3>user profiles</h3>
+                    <p>
+                        We've all grown accustomed to having our own profiles online for the purpose of sharing our
+                        basic information with friends/followers. Bark + Play's profiles help users learn about each
+                        other and about their dogs. By giving users a profile, they will feel more comfortable with
+                        requesting a play date because they will have learned a little bit more about the person/dog
+                        they will be meeting with.
+                    </p>
+                </div>
+
+            <!--FINDING FRIENDS-->
+                <div class="exception2 wrapper keyscreen">
+                    <img class="border" src= "Images/BARK+PLAY/iPhone%2067%20–%2017.png">
+                </div>
+                <div class="exception2 wrapper">
+                    <h3>finding friends</h3>
+                    <p>
+                        If the map view of nearby dogs isn't helpful &mdash; as in, perhaps no one in the area is using
+                        GPS to show where they are &mdash; then users may look through a list of dogs living in the
+                        city. If users have their GPS enabled within the app, then the list will display the distance
+                        between them and another dog. Of course, the other user must also have their GPS enabled in
+                        order for the distance to display. Aside from this list, users may also view their
+                        friends list and request to meet up with one of them.
+                    </p>
+                </div>
+
+            <!--ADDING FRIENDS-->
+                <div class="exception2 wrapper keyscreen">
+                    <img class="border" src= "Images/BARK+PLAY/iPhone%2067%20–%2010.png">
+                </div>
+                <div class="exception2 wrapper">
+                    <h3>adding friends</h3>
+                    <p>
+                        Building a network within a community is something that Bark + Play also aims to achieve. If
+                        play dates are successful, then users are encouraged to add someone to their friends list. By
+                        adding this feature, I hope to encourage users to form connections with people in their
+                        neighborhood and push them to start conversations beyond the screen. Subsequently, through these
+                        new formed friendships, the user's dogs will have regular play dates and new friends, which
+                        translates to good social skills.
+                    </p>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--NEXT STEPS-->
+<div id="next">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>next steps</h1>
+            <p>
+                Regarding the design process, my next step would be to present my design to users so that I may
+                determine what can be improved. Only through testing would I be able to learn how well my solution
+                satisfies the needs of Bark + Play's potential users.
+            </p>
+
+            <p>
+                I know that there is always room for improvement, so after testing with users and making necessary
+                changes, I would work to develop a prototype to test for screen flow and usability issues. Since I'm
+                not a developer, I would want to collaborate with a development team which would be a great opportunity
+                to use my product management skills.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--REFLECTION-->
+<div id="reflection">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>reflection</h1>
+
+            <p>
+                Through this project, I learned how to understand users through empathy and through
+                creating a product that facilitates behavioral change and delivers value to its users. I also practiced
+                weaving digital and physical experiences into a product that emphasizes building interpersonal
+                relationships in a real life setting. Bark + Play's purpose is to encourage users to meet members of their
+                community and share their love for dogs while helping their dogs learn to socialize through play dates.
+                I would hope that these interactions would generate awareness of diversity and connection within a
+                neighborhood.
+            </p>
+
+            <p>
+                I'm always looking to improve as a designer and a big part of this process is learning what my strengths
+                and weaknesses are. I'm not a visual designer, but this project helped me develop my UI
+                design skills concerning color, layout, and typography. I learned that I'm a minimalist when it comes
+                to design because to me, a simple UI can help users focus more on the actual experience and content.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--FOOTER-->
+<footer>
+    <div id="footwrapper">
+        <div id="uparrow">
+            <a href="#nav" class="smoothScrollTarget btn-floating btn-large waves-effect waves-light yellow accent-4">
+                <i class="material-icons">arrow_upward</i>
+            </a>
+        </div>
+        <div><p>design + content &copy;2017 alexia bareno</p></div>
+    </div>
+</footer>
+
+<!--jQuery-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script src="prognroll-master/src/prognroll.js"></script>
+
+<script>
+    $( document ).ready(function() {
+        /**PROGRESS BAR (https://github.com/mburakerman/prognroll)/**/
+        $("body").prognroll({
+            height: 5, //Progress bar height
+            color: "#BFD8D2", //Progress bar background color
+            custom: false //If you make it true, you can add your custom div and see it's scroll progress on the page
+        });
+    });
+</script>
+</body>
+</html>

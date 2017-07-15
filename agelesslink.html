@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="pinterest" content="nopin"/>
+
+    <title>alexia bareno &mdash; ageless link</title>
+
+    <!--TAB ICON-->
+    <link rel="icon" href="Images/icon.png">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- Styling -->
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<!-- NAVIGATION BAR -->
+<nav id="nav">
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">alexia bareno</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">portfolio</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="photography.html">play</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">portfolio</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="photography.html">play</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- ABOUT -->
+<div id="about">
+    <div class="text">
+        <div class="wrapper">
+            <h1 id="greeting">ageless link;</h1>
+            <p>Ageless Link, in partnership with
+                <a class="link" target="_blank" href="http://agelessalliance.org/">Ageless Alliance</a>,
+                is a nonprofit website solution that bridges volunteers with isolated elders in Orange County as a
+                prevention for elder abuse, neglect, and exploitation. This project came from my senior design course
+                at UC Irvine.
+            </p>
+
+            <p>Our solution pairs volunteers with elders, allows volunteers to record their service hours, and gives
+                the administrator access to a dashboard that provides an overview of volunteer activity which includes
+                logged service hours, new volunteer applications, and volunteer-elder matches.
+            </p>
+
+            <p><b>Role:</b> As a UX Designer, I conducted user research, produced sketches and wireframes using Axure,
+                and helped with web development (Bootstrap, HTML, and CSS.)
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--PROBLEM-->
+<div id="problem">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>what's the problem?</h1>
+            <p>
+                The founder of Ageless Alliance initially asked for a creative software solution (computer and phone
+                use) that collects information from elders and from volunteers. I felt that this was a very vague
+                request &mdash; was there a current method of collecting information that didn't work? What about it
+                wasn't working? A peer and I decided to meet with the founder and ask her questions to learn more
+                about her organization and to identify the problem(s).
+            </p>
+
+            <p>
+                Our research on Ageless Alliance began with interviewing the founder and the social media manager/admin.
+                They explained the mission of the organization and their current involvement with the elderly
+                community. We learned that the organization's most valuable resource was its volunteer group which devotes
+                time to assist elders with everyday tasks and most importantly, to keep them company during certain days
+                of the week. We asked about the challenges related to managing the organization and found that these had
+                to do with the volunteer group and member information. We learned that:
+            </p>
+
+            <ul>
+                <li>It was hard to keep track of all elder-volunteer matches as they were manually done</li>
+                <li>There was no visibility into volunteer activity and the volunteers did not always log in hours so
+                    the organization assumed they didn't visit the elder</li>
+                <li>The volunteers only knew who and when to visit after receiving a call from a lead member</li>
+                <li>The volunteers weren't always able to drive out to visit the elder which made some elders feel
+                    sad</li>
+            </ul>
+
+            <p>
+                We learned that the founder wanted an improved way to match elders with volunteers (these matches
+                are the 'information' she was referring to in her initial request), but that she really needed a better
+                way to direct and track volunteer activity. The problem then became clear: <b>How can we create and
+                track volunteer-elder matches?</b>
+            </p>
+
+            <p>
+                After discussion, my team and our partner agreed that a website (portal) would benefit the organization
+                greatly. Volunteers would use it to log in their hours and to see who they had been matched with. They
+                would also be able to log their hours on the go via their mobile device. The administrator(s) would
+                access a dashboard of volunteer activity. Since it was a to be a website, it was important that we
+                also include information about the organization and how to become a volunteer.
+            </p>
+
+            <p>
+                Prior to beginning the design of our website, I did a competitive analysis of similar sites to become
+                aware of what other sites had content-wise and to see what worked and what didn't. I looked at three
+                organizations: Elder Helpers, Caregivers, and Life Elder Care. Below is one of them:
+            </p>
+
+            <h3>caregivers</h3>
+            <p><b>Purpose:</b> to explain the organization's purpose and the services it offers, to show how to get
+                involved</p>
+            <p><b>Content summary:</b> about Caregivers, volunteer information, donations, videos of volunteers
+                helping elders, calendar of upcoming events</p>
+            <p><b>Notable features:</b> homepage has a slideshow featuring photos of volunteers and elders, links to
+                most important areas of site (about, volunteer, elder feedback, donate)</p>
+            <p><b>Visual styling strength(s):</b> relatively neutral color scheme, simple page design</p>
+            <p><b>Overall weaknesses:</b> some lack of information structure as content is scattered throughout pages,
+                overwhelming amount of content in some pages, two navigation bars</p>
+            <p><b>Analysis:</b> The website provides all necessary information to properly inform its visitors, however,
+                the content structure undermines its effort to inform.</p>
+        </div>
+    </div>
+</div>
+
+<!-- USERS -->
+<div id="users">
+    <div class="text">
+        <div class="wrapper">
+            <h1>meeting our users</h1>
+            <p>
+                Now that we had a clear view of our problem, the next step was to gain a clear understanding of our
+                users: the volunteers and the administrator(s). We did not include elders for two reasons: (a) although
+                many elders are technologically savvy, not all are and we did not want to risk the possibility of
+                excluding some of our elders from being a part of this program, and (b) all relevant elder information
+                is already held by the organization, so there's no need for an elder to have an account.
+            </p>
+
+            <p>
+                I helped conduct interviews with 5 volunteers to learn more about what it's like to be a volunteer and
+                to identify pain points in the volunteer routine. Our volunteers were men and women of ages 40-54
+                who felt comfortable using the internet, computers, and mobile devices.
+            </p>
+
+            <h3>volunteers</h3>
+            <div class="imagegallery">
+                <img src="Images/AGELESS/ageless%20link%20personas.png"/>
+            </div>
+
+            <h3>key insights and opportunities</h3>
+            <p><b>VOLUNTEERS</b></p>
+            <p><b>How might we...</b> make it easy for volunteers to log in hours?</p>
+            <ul>
+                <li>Volunteers have other responsibilities and driving to the office to log hours can be inconvenient</li>
+            </ul>
+            <p><b>How might we...</b> let volunteers know who to contact for assistance?</p>
+            <ul>
+                <li>Depending on the situation, volunteers may need to call or message. Establishing a 'help' center
+                    can direct volunteers to the right people</li>
+            </ul>
+            <p><b>How might we...</b> inform volunteers of their duties as a volunteer?</p>
+            <ul>
+                <li>Volunteers are given a short guide to what's expected of them, but establishing a comprehensive
+                    online guide may help both to inform the volunteer and to reduce paper use</li>
+            </ul>
+
+            <h3>administrator</h3>
+            <div class="imagegallery">
+                <img src="Images/AGELESS/AL%20admin%20persona.png"/>
+            </div>
+
+            <h3>key insights and opportunities</h3>
+            <p><b>ADMINISTRATOR</b></p>
+            <p><b>How might we...</b> assist the admin in matching and tracking volunteer-elder pairs?</p>
+            <ul>
+                <li>If we can automatically pair volunteers with elders, we can help the administrator devote her
+                    time to other important tasks</li>
+            </ul>
+            <p><b>How might we...</b> simplify the process of processing volunteer applications?</p>
+            <ul>
+                <li>Applying online would rid of paper applications and make it easier to keep track of which ones
+                    need to be processed</li>
+            </ul>
+            <p><b>How might we...</b> give the admin visibility into volunteer activity?</p>
+            <ul>
+                <li>If we can notify the admin about new applicants, hibernating volunteers, active volunteers, etc. then
+                    we can make it less stressful for leadership to run the organization</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--DESIGN-->
+<div id="design">
+    <div class="text">
+        <div class="wrapper">
+            <h1>drafting the solution</h1>
+            <p>
+                I created the following sketches to show how our volunteers would be navigating the website. These
+                led to more discussions about what we wanted the volunteer to be able to do.
+            </p>
+
+            <div class="imagegallery">
+                <img src="Images/AGELESS/FIRSTGEN/AgelessConnectSitemap.png"/>
+            </div>
+
+            <p>
+                I proceeded to help create wireframes &mdash; seen below. Following approval from our partner,
+                two of our team members met with 5 volunteers to test them for feedback. These interactive wireframes
+                were done using Axure.
+            </p>
+
+            <h3>volunteer portal</h3>
+            <div class="imagegallery">
+                <img src="Images/AGELESS/FIRSTGEN/home.png"/>
+                <img src="Images/AGELESS/FIRSTGEN/login.png"/>
+                <img src="Images/AGELESS/FIRSTGEN/checklist.png"/>
+                <img src="Images/AGELESS/FIRSTGEN/volunteer.png"/>
+                <img src="Images/AGELESS/FIRSTGEN/contact.png"/>
+            </div>
+
+            <h3>administrator portal</h3>
+            <div class="imagegallery">
+                <img src="Images/AGELESS/FIRSTGEN/admin.png"/>
+            </div>
+
+            <p>
+                Our partner and the volunteers were pleased &mdash; we were VERY lucky that no changes were proposed. We
+                then moved on to build our prototype.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--PROTOTYPE-->
+<div id="prototype">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>prototype</h1>
+            <p>
+                Our <a class="link" target="_blank" href="https://ageless-link.firebaseapp.com/">prototype</a> was
+                created using Bootstrap and open source code. We used Firebase as our database manager to store all
+                account information and handle our elder-volunteer matching. I've included screenshots of the volunteer
+                account below.
+            </p>
+
+            <h3>volunteer portal</h3>
+            <div class="imagegallery">
+                <img src="Images/AGELESS/aahome.png"/>
+                <img src="Images/AGELESS/aaloghistory.png"/>
+                <img src="Images/AGELESS/aanewentry.png"/>
+                <img src="Images/AGELESS/aaaccountsettings.png"/>
+                <img src="Images/AGELESS/aacontact.png"/>
+                <img src="Images/AGELESS/aahandbook.png"/>
+            </div>
+
+            <p>
+                Below is an outline of what we had planned our admin page to look like upon log in. The dashboard is
+                designed so that the admin has more visibility into volunteer activity such as most recent logs entered,
+                hibernating volunteers, elder-volunteer matches, and more. Due to time constraints, we were unable to
+                finish this portion of our prototype.
+            </p>
+
+            <h3>admin portal</h3>
+            <div class="imagegallery">
+                <img src="Images/AGELESS/admin.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--PRESENTATION-->
+<div id="presentation">
+    <div class="text2">
+        <div class="wrapper">
+            <h1>show time!</h1>
+            <p>Part of our project involved a 4 minute final presentation during the showcase event. I’ve included a
+                few images of our poster and the event below.
+            </p>
+            <div class="imagegallery">
+                <img src="Images/AGELESS/booth.JPG"/>
+                <img src="Images/AGELESS/presentation.JPG"/>
+                <img src="Images/AGELESS/Showcase Poster.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--REFLECTION-->
+<div id="reflection">
+    <div class="text">
+        <div class="wrapper">
+            <h1>reflection</h1>
+            <p>
+                The biggest challenge was figuring out how to start because our partner wasn't too sure of what she was
+                looking for. This project taught me that research is imperative to projects like this because not only
+                do we learn about the organization, the client, and the users, but we also unearth needs that the
+                client may not have been aware of.
+            </p>
+
+            <p>
+                Another challenge was that of web development. Before this, I had done a little bit in HTML and CSS,
+                but I never actually put something significant together. It was a big learning opportunity for me.
+            </p>
+
+            <p>
+                My takeaway from this experience is: we can't proceed with assumptions in design. If a UI mockup isn't
+                in line with what users require, then it's just a UI mockup. It's not a solution. I learned to always
+                ask questions if I'm feeling unsure. I also learned that checking in with the client (and/or users) to
+                validate progress helps avoid major issues that would require valuable time and resources to fix later
+                on.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+<!--FOOTER-->
+<footer>
+    <div id="footwrapper">
+        <div id="uparrow">
+            <a href="#nav" class="smoothScrollTarget btn-floating btn-large waves-effect waves-light yellow accent-4">
+                <i class="material-icons">arrow_upward</i>
+            </a>
+        </div>
+        <div><p>design + content &copy;2017 alexia bareno</p></div>
+    </div>
+</footer>
+
+<!--jQuery-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script src="prognroll-master/src/prognroll.js"></script>
+
+<script>
+    $( document ).ready(function() {
+        /**PROGRESS BAR (https://github.com/mburakerman/prognroll)/**/
+        $("body").prognroll({
+            height: 5, //Progress bar height
+            color: "#BFD8D2", //Progress bar background color
+            custom: false //If you make it true, you can add your custom div and see it's scroll progress on the page
+        });
+    });
+</script>
+</body>
+</html>
