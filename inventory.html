@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="pinterest" content="nopin"/>
 
-    <title>alexia bareno &mdash; inventory app</title>
+    <title>alexia bareno &mdash; barcode scanner</title>
 
     <!--TAB ICON-->
     <link rel="icon" href="Images/icon.png">
@@ -44,18 +44,20 @@
 <div id="about">
     <div class="text">
         <div class="wrapper">
-            <h1 id="greeting">inventory app;</h1>
+            <h1 id="greeting">barcode scanner;</h1>
             <p>
-                I conducted a pilot study that looked into establishing a uniform monthly inventory
-                count process for company branches nationwide. I studied my supervisor's proposed
-                solution of designing an app that would help managers scan inventory items into an exportable
-                spreadsheet. I divided my study into the following phases: user research, information architecture,
-                design, development, and testing. This project came from my internship.
+                Barcode Scanner is a mobile application that creates an exportable spreadsheet containing scanned
+                warehouse inventory items. It was designed to improve the larger inventory process by replacing the
+                traditional count on paper and simplifying the identification of missing inventory. I followed
+                a user centered design process by asking for user's feedback often. The steps in my process were:
+                user research, flow diagrams, sketching/wireframing (and iterating based on feedback), development,
+                and testing.
+
             </p>
 
             <p id="disclaimer">
-                <b>In compliance with my non-disclosure agreement, I have omitted and obfuscated confidential
-                    information from this case study.</b>
+                <b>This project came from my internship and in compliance with my non-disclosure agreement, I have
+                    omitted and obfuscated confidential information.</b>
             </p>
 
             <p><b>Role:</b> As a UX Designer, I conducted user research and interviews, created flows and UI designs
@@ -70,47 +72,44 @@
         <div class="wrapper">
             <h1>research</h1>
             <p>
-                <b>Problem: branches have different ways of doing inventory which makes it difficult to address issues
-                    in reported inventory numbers.
+                <b>Problem: the process for counting inventory varied among most branches and this made it difficult for
+                    operations management to address discrepancies in reported numbers.
                 </b>
             </p>
 
             <p>
-                To begin this project, I recruited seven managers to be in my pilot group: two were in California and
-                the rest were in Illinois, Georgia, Texas, Lousiana, and Virginia. Before diving into design, I spent
-                a day interviewing the group to learn about their current practices when it came to doing inventory.
-                The interview was conducted over the phone.
+                My supervisor explained that I was to design an inventory scanning app to simplify the
+                inventory process. To begin this project, I recruited seven managers to be in my pilot group: two were
+                in California and the rest were in Illinois, Georgia, Texas, Lousiana, and Virginia. I selected these
+                branches because they all varied in size and provided diversity to my group. I was given a day to
+                interview the group and gather information about their inventory practices.
             </p>
 
 
             <p>
-                The types of questions asked revolved around the themes of organization, process, and tools.
-                Some of these questions were:
+                I asked questions on the themes of organization, process, and tools. Some of these questions were:
             </p>
 
-            <div class="imagegallery">
-                <img src="Images/TVM/questions.png"/>
-            </div>
-            <!--<p style="text-align: center;">
+            <p>
                 <i><b>
                 "Describe your method of organization in the warehouse."<br>
                 "Could you please describe the steps that you take to do inventory?"<br>
                 "Could you please tell me about what you use to perform inventory counts?"<br>
                 "Tell me about a time that you were frustrated while doing inventory counts."
                 </b></i>
-            </p>-->
+            </p>
 
-            <p>Here is some of what I learned:</p>
-            <ul>
+            <p>
+                Here is some of what I learned:
+            </p>
+
+            <ol>
                 <li>Larger branches had come up with 'shortcuts' to speed up inventory counts</li>
                 <li>One of the managers had created a macro-enabled spreadsheet that identifies missing inventory</li>
-                <li>86% of the group was doing inventory using pencil and paper</li>
-                <li>Two of the managers weren't too comfortable with technology</li>
                 <li>All branches had inventory organized based on item type</li>
                 <li>Smaller branches took about 20-30 mins to do inventory; larger branches took 45min-1hr+</li>
-                <li>Branches once used inventory tracking software - now very outdated, did not upgrade because not
-                    cost effective</li>
-            </ul>
+                <li>Branches once used an inventory tracking software but abandoned it because it became outdated</li>
+            </ol>
 
             <p>
                 After the call, I spent another day organizing my data to present to my supervisor.
@@ -124,12 +123,12 @@
             </p>
 
             <p>
-                My supervisor had agreed that we had a good case to pursue her idea and develop the app.
-                As an addition to the new process, she decided to include the manager's macro-enabled
-                Excel file (TVM audit) as another tool to be used. The audit worked using two files: an Excel download
+                My supervisor decided that we had enough information to pursue her idea and develop the app.
+                As an addition, she decided to include the manager's macro-enabled Excel file (audit) as another tool
+                to be used in the revamped process. The audit cross-checked two files: an Excel download
                 from the company's system which included all inventory owned by a branch and an Excel file produced by
-                the app containing the scanned items present in the warehouse. The audit then checked both files and
-                highlighted items that weren't present in either list which meant they could be missing.
+                the app containing the scanned items present in the warehouse. Highlighted items in the audit indicated
+                potentially missing inventory.
             </p>
 
             <p>
@@ -141,17 +140,17 @@
             </div>
 
             <p>
-                My next step was to begin drafting the app's structure.
+                My next step was to create flow diagrams.
             </p>
         </div>
     </div>
 </div>
 
-<!--INFORMATION ARCHITECTURE-->
+<!--FLOW DIAGRAMS-->
 <div id="architecture">
     <div class="text">
         <div class="wrapper">
-            <h1>information architecture</h1>
+            <h1>diagrams</h1>
             <p>I created a user flow to show the paths that users would take to complete the main task of scanning
                 inventory and exporting the spreadsheet.
             </p>
@@ -178,11 +177,7 @@
         <div class="wrapper">
             <h1>design</h1>
             <p>
-                After having my diagrams approved, I proceeded to design the interface.
-            </p>
-
-            <p>
-                The following rough sketches were for me to begin visualizing the interface:
+                The following rough sketches helped me begin visualizing the interface:
             </p>
 
             <div class="imagegallery">
@@ -191,27 +186,50 @@
             </div>
 
             <p>
-                Since I am not a visual designer, I used elements of Material Design and followed it as a guideline. All
+                I am not a visual designer, so I used elements of Material Design and followed it as a guideline. All
                 branch managers and warehouse workers were given an Android company phone so I felt it was appropriate
                 to design the app using Material Design.
             </p>
 
-            <div class="imagegallery">
-                <img class="smaller" src="Images/TVM/1.png"/>
-                <img class="smaller" src="Images/TVM/2.png"/>
-                <img class="smaller" src="Images/TVM/3.png"/>
-                <img class="smaller" src="Images/TVM/4.png"/>
-                <img class="smaller" src="Images/TVM/5.png"/>
-                <img class="smaller" src="Images/TVM/6.png"/>
-                <img class="smaller" src="Images/TVM/7.png"/>
-                <img class="smaller" src="Images/TVM/8.png"/>
+            <!--HOME-->
+            <div class="exception2 wrapper keyscreen">
+                <img class="border" src= "Images/TVM/images/image6.png">
+            </div>
+            <div class="exception2 wrapper">
+                <h3>home screen</h3>
+                <p>
+                    Upon opening the app, the managers see all created spreadsheets and have the options of opening
+                    a spreadsheet, deleting a spreadsheet, creating a new spreadsheet, or sending (exporting) a
+                    spreadsheet.
+                </p>
             </div>
 
-            <p>
-                I made a change during this phase by including a 'continuous scan' feature that
-                allowed managers to scan items with the same tag/item number so that they wouldn't have to type it
-                in for each scan.
-            </p>
+            <!--NEW SPREADSHEET-->
+            <div class="exception2 wrapper keyscreen">
+                <img class="border" src= "Images/TVM/images/image4.png">
+            </div>
+            <div class="exception2 wrapper">
+                <h3>new spreadsheet</h3>
+                <p>
+                    One of the requested features was to make it possible for managers to enter item numbers (which
+                    specify item type) and zone tags (which specify where in the warehouse the item is at.) Other
+                    barcode scanning apps required managers to input this information everytime they scanned a barcode,
+                    but I added two field for managers to specify this information and then scan. With every scan,
+                    the app will add the barcode number, item number, and zone tag into the spreadsheet.
+                </p>
+            </div>
+
+            <!--SENDING SPREADSHEET-->
+            <div class="exception2 wrapper keyscreen">
+                <img class="border" src= "Images/TVM/images/image2.png">
+            </div>
+            <div class="exception2 wrapper">
+                <h3>sending a spreadsheet</h3>
+                <p>
+                    Managers are given options on how they would like to export their spreadsheet based on the apps
+                    or methods supported by their phone.
+                </p>
+            </div>
         </div>
     </div>
 </div>
