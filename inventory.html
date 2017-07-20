@@ -48,7 +48,7 @@
             <p>
                 Barcode Scanner is a mobile application that creates an exportable spreadsheet containing scanned
                 warehouse inventory items. It was designed to improve the larger inventory process by replacing the
-                traditional count on paper and simplifying the identification of missing inventory. I followed
+                traditional count on paper and by simplifying the identification of missing inventory. I followed
                 a user centered design process by asking for user's feedback often. The steps in my process were:
                 user research, flow diagrams, sketching/wireframing (and iterating based on feedback), development,
                 and testing.
@@ -78,9 +78,9 @@
             </p>
 
             <p>
-                My supervisor explained that I was to design an inventory scanning app to simplify the
+                My supervisor explained that I was to design a barcode scanning app as part of improving the overall
                 inventory process. To begin this project, I recruited seven managers to be in my pilot group: two were
-                in California and the rest were in Illinois, Georgia, Texas, Lousiana, and Virginia. I selected these
+                in California and the rest were in Illinois, Georgia, Texas, Louisiana, and Virginia. I selected these
                 branches because they all varied in size and provided diversity to my group. I was given a day to
                 interview the group and gather information about their inventory practices.
             </p>
@@ -94,7 +94,7 @@
                 <i><b>
                 "Describe your method of organization in the warehouse."<br>
                 "Could you please describe the steps that you take to do inventory?"<br>
-                "Could you please tell me about what you use to perform inventory counts?"<br>
+                "Could you please tell me what you use to perform inventory counts?"<br>
                 "Tell me about a time that you were frustrated while doing inventory counts."
                 </b></i>
             </p>
@@ -117,13 +117,13 @@
 
             <p>
                 <b>
-                    Hypothesis: the inventory app will accomodate all branches regardless of size by cutting down
+                    Idea: the inventory app will accommodate all branches regardless of size by cutting down
                     the time it takes branches to count their stock.
                 </b>
             </p>
 
             <p>
-                My supervisor decided that we had enough information to pursue her idea and develop the app.
+                My supervisor decided that we had enough information to continue this project and develop the app.
                 As an addition, she decided to include the manager's macro-enabled Excel file (audit) as another tool
                 to be used in the revamped process. The audit cross-checked two files: an Excel download
                 from the company's system which included all inventory owned by a branch and an Excel file produced by
@@ -140,7 +140,7 @@
             </div>
 
             <p>
-                My next step was to create flow diagrams.
+                My next step was to deliver some flow diagrams.
             </p>
         </div>
     </div>
@@ -199,7 +199,7 @@
                 <h3>home screen</h3>
                 <p>
                     Upon opening the app, the managers see all created spreadsheets and have the options of opening
-                    a spreadsheet, deleting a spreadsheet, creating a new spreadsheet, or sending (exporting) a
+                    a spreadsheet, deleting a spreadsheet, creating a new spreadsheet, and sending (exporting) a
                     spreadsheet.
                 </p>
             </div>
@@ -212,10 +212,11 @@
                 <h3>new spreadsheet</h3>
                 <p>
                     One of the requested features was to make it possible for managers to enter item numbers (which
-                    specify item type) and zone tags (which specify where in the warehouse the item is at.) Other
-                    barcode scanning apps required managers to input this information everytime they scanned a barcode,
-                    but I added two field for managers to specify this information and then scan. With every scan,
-                    the app will add the barcode number, item number, and zone tag into the spreadsheet.
+                    specify item type) and zone tags (which specify the warehouse location of an item.) Other
+                    barcode scanning apps required managers to input this information every time they scanned a barcode,
+                    but I added two fields for managers to specify this information once. With every scan,
+                    the app will continuously add the item number and zone tag until the manager clears the fields or
+                    changes them.
                 </p>
             </div>
 
@@ -226,8 +227,8 @@
             <div class="exception2 wrapper">
                 <h3>sending a spreadsheet</h3>
                 <p>
-                    Managers are given options on how they would like to export their spreadsheet based on the apps
-                    or methods supported by their phone.
+                    Managers are given options on how they would like to export their spreadsheet. Most preferred
+                    the email method but we gave them a variety of options.
                 </p>
             </div>
         </div>
