@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94b9cbe0-6d59-4483-9f6f-a99209bc4c39" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agelesslink.html" afterPath="$PROJECT_DIR$/agelesslink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bark+play.html" afterPath="$PROJECT_DIR$/bark+play.html" />
     </list>
     <ignored path="alexiabareno.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="inventory.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="inventory.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inventory.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3910">
+            <state relative-caret-position="17">
               <caret line="230" column="75" selection-start-line="230" selection-start-column="75" selection-end-line="230" selection-end-column="75" />
               <folding />
             </state>
@@ -37,28 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
+            <state relative-caret-position="17">
               <caret line="118" column="75" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agelesslink.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/agelesslink.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="300" column="114" selection-start-line="300" selection-start-column="114" selection-end-line="300" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bark+play.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bark+play.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6477">
-              <caret line="381" column="22" selection-start-line="368" selection-start-column="12" selection-end-line="381" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -85,12 +64,12 @@
         <option value="$PROJECT_DIR$/shouts.html" />
         <option value="$PROJECT_DIR$/photography.html" />
         <option value="$PROJECT_DIR$/canvas.html" />
-        <option value="$PROJECT_DIR$/bark+play.html" />
         <option value="$PROJECT_DIR$/css/styling.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/inventory.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/agelesslink.html" />
+        <option value="$PROJECT_DIR$/bark+play.html" />
       </list>
     </option>
   </component>
@@ -243,15 +222,15 @@
       <workItem from="1500526141330" duration="4798000" />
       <workItem from="1500570815735" duration="1173000" />
       <workItem from="1500585475762" duration="1190000" />
-      <workItem from="1500604385261" duration="3029000" />
+      <workItem from="1500604385261" duration="5058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11739000" />
+    <option name="totallyTimeSpent" value="13768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14055637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -308,7 +287,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6477">
           <caret line="381" column="22" selection-start-line="368" selection-start-column="12" selection-end-line="381" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="e#7719#7726#0" expanded="true" />
+            <element signature="e#7922#7929#0" expanded="true" />
+            <element signature="e#8718#8725#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -340,7 +323,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6477">
           <caret line="381" column="22" selection-start-line="368" selection-start-column="12" selection-end-line="381" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="e#7719#7726#0" expanded="true" />
+            <element signature="e#7922#7929#0" expanded="true" />
+            <element signature="e#8718#8725#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,7 +351,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6477">
           <caret line="381" column="22" selection-start-line="368" selection-start-column="12" selection-end-line="381" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="e#7719#7726#0" expanded="true" />
+            <element signature="e#7922#7929#0" expanded="true" />
+            <element signature="e#8718#8725#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -426,30 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bark+play.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6477">
-          <caret line="381" column="22" selection-start-line="368" selection-start-column="12" selection-end-line="381" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3910">
-          <caret line="230" column="75" selection-start-line="230" selection-start-column="75" selection-end-line="230" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" column="75" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -462,6 +429,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="300" column="114" selection-start-line="300" selection-start-column="114" selection-end-line="300" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bark+play.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7497">
+          <caret line="441" column="75" selection-start-line="441" selection-start-column="75" selection-end-line="441" selection-end-column="75" />
+          <folding>
+            <element signature="e#7719#7726#0" expanded="true" />
+            <element signature="e#7922#7929#0" expanded="true" />
+            <element signature="e#8718#8725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="118" column="75" selection-start-line="118" selection-start-column="75" selection-end-line="118" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="230" column="75" selection-start-line="230" selection-start-column="75" selection-end-line="230" selection-end-column="75" />
           <folding />
         </state>
       </provider>
