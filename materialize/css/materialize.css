@@ -4647,6 +4647,7 @@ small {
 }
 
 .card .card-content p {
+  text-align: left;
   margin: 0;
   color: inherit;
   font-family: Lato, Source Sans Pro, sans serif;
