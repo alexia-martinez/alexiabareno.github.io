@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="pinterest" content="nopin"/>
 
-    <title>alexia bareno &mdash; shouts</title>
+    <title>Alexia Bareno &mdash; Shouts</title>
 
     <!--TAB ICON-->
-    <link rel="icon" href="Images/icon.png">
+    <link rel="icon" href="Images/coffee.png">
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -25,38 +25,64 @@
 <!-- NAVIGATION BAR -->
 <nav id="nav">
     <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo">alexia bareno</a>
+        <a href="index.html" class="brand-logo">Alexia Bareno</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">portfolio</a></li>
-            <li><a href="about.html">about</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-            <li><a href="index.html">portfolio</a></li>
-            <li><a href="about.html">about</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </div>
 </nav>
+
+<!-- INTRO -->
+<div id="intro">
+    <div class="text">
+        <div class="wrapper">
+            <div class="imagegallery">
+                <img src="Images/SHOUTS/mockuphand.png"/>
+            </div>
+            <h1>Shouts: Helping Students Find Their Ideal Study Spots</h1>
+            <p>UX Design & Research &mdash; Mobile</p>
+            <div class="imagegallery">
+                <img src="Images/SHOUTS/studyarea.jpg"/>
+                <p class="caption"><i>Some students like busy areas for studying. Others, not so much.</i></p>
+                <p class="caption"><i><b>Anaheim Packing House, 2016</b></i></p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- ABOUT -->
 <div id="about">
     <div class="text">
         <div class="wrapper">
-            <h1 id="greeting">shouts;</h1>
+            <h2 id="greeting">01 Background</h2>
             <p>
-                Shouts is an app designed to help UCI students find their ideal study spots on campus. A student could
+                Shouts is an app that helps UCI students find their ideal study spots on campus. A student could
                 either manually search for a spot (ex: Starbucks, library, etc.) or have the app suggest one
                 based on proximity. Each location has a noise-level rating (ex: quiet, very loud) which is reported by
                 students who are currently at that spot.
             </p>
 
-            <p>
-                This project came from my Human-Computer Interaction course at UC Irvine.
-            </p>
+            <h3>How Does Shouts Work?</h3>
+            <ol>
+                <li>A student opens the app and may either have a location suggested based on proximity or manually
+                    search for one.</li>
+                <li><b>If they choose to have a location found for them</b>, they will be given a list of locations
+                nearby with their noise-level ratings.
+                <li><b>If they choose to search for a location themselves,</b> they type in the name of a location
+                and will be shown a list of all locations with that name sorted from near to far. Noise-level ratings are
+                also shown.</li>
+            </ol>
 
+            <h3>Team & Roles</h3>
             <p>
-                <b>Role:</b> As a UX Designer, I did user research, personas, sketches, wireframes, prototypes, and
-                usability testing.
+                I worked on this project with three peers from my Human-Computer Interaction class at UC Irvine. Together,
+                we conducted research, sketches, and testing. I delivered the personas and wireframes.
             </p>
         </div>
     </div>
@@ -66,10 +92,13 @@
 <div id="empathize">
     <div class="text2">
         <div class="wrapper">
-            <h1>empathize</h1>
-            <p>
+            <h2>02 Empathize</h2>
+            <p>For this project, we followed the Design Thinking method from the Stanford d.school. We were tasked to
+            design a solution for the following problem:</p>
+
+            <p style="text-align: center">
                 <b>
-                    Problem: how can we increase student productivity when it comes to studying?
+                    How can we increase student productivity when it comes to studying?
                 </b>
             </p>
 
@@ -77,23 +106,32 @@
                 To begin, my team and I:
             </p>
 
-            <ol>
+            <ul class="bullet">
                 <li>Conducted user research on campus at libraries, Starbucks, and outdoor areas</li>
                 <li>Organized our data into an affinity diagram (Four categories: Procrastination and Distractions,
                     Study Environment, Work Environment, and Productivity Booster)</li>
                 <li>Put together an empathy map to ground our design on a deep understanding of who our solution
                     is for</li>
                 <li>Formed two personas that embody potential users of our app</li>
-            </ol>
+            </ul>
 
             <p>
                 The steps above were taken to understand our user within the context of our design problem.
-                Below are my UX deliverables: an affinity diagram, an empathy map, and two personas.
+                Below are our UX deliverables: an affinity diagram, an empathy map, and my two personas.
             </p>
 
+            <h3>Affinity Diagram</h3>
             <div class="imagegallery">
                 <img src="Images/SHOUTS/Affinity Diagram Small.png"/>
+            </div>
+
+            <h3>Empathy Map</h3>
+            <div class="imagegallery">
                 <img src="Images/SHOUTS/Empathy Map UX.png"/>
+            </div>
+
+            <h3>Personas</h3>
+            <div class="imagegallery">
                 <img src="Images/SHOUTS/Frida.png"/>
                 <img src="Images/SHOUTS/Jake.png"/>
             </div>
@@ -105,7 +143,7 @@
 <div id="ideation">
     <div class="text">
         <div class="wrapper">
-            <h1>define & ideate</h1>
+            <h2>03 Define & Ideate</h2>
             <p>
                 We found that the underlying issues related to ineffective studying were space availability and noise
                 levels. The data collected told of students having trouble finding open spaces to use and having to
@@ -139,7 +177,7 @@
 <div id="prototype">
     <div class="text2">
         <div class="wrapper">
-            <h1>prototype & test</h1>
+            <h2>04 Prototype & Test</h2>
             <p>
                 We designed an app that determines the noise level of a location, thus accommodating students with their
                 preferred study environment.
@@ -159,17 +197,18 @@
                     centers)</li>
             </ol>
 
+            <h3>Paper Prototype</h3>
             <div class="imagegallery">
                 <img src="Images/SHOUTS/1.png"/>
                 <img src="Images/SHOUTS/2.png"/>
                 <img src="Images/SHOUTS/3.png"/>
             </div>
 
+            <h3>Wireframes</h3>
             <p>
                 The delivery of the lo-fi prototypes marked the end of the project, but I decided to create wireframes
                 using Axure as shown below.
             </p>
-
             <div class="imagegallery">
                 <img class="smaller" src="Images/SHOUTS/home.png"/>
                 <img class="smaller" src="Images/SHOUTS/search.png"/>
@@ -186,7 +225,7 @@
 <div id="reflection">
     <div class="text">
         <div class="wrapper">
-            <h1>reflection</h1>
+            <h2>05 Reflection</h2>
             <p>
                 This was my first time doing UX work and I loved every minute of it. Empathizing with others and
                 understanding their issues was something that I'd never done before, and I felt very comfortable
@@ -214,7 +253,7 @@
                 <i class="material-icons black-text">arrow_upward</i>
             </a>
         </div>
-        <div><p>design + content &copy;2017 alexia bareno</p></div>
+        <div><p>Design + Content &copy;2017 Alexia Bareno</p></div>
     </div>
 </footer>
 
@@ -230,7 +269,7 @@
         /**PROGRESS BAR (https://github.com/mburakerman/prognroll)/**/
         $("body").prognroll({
             height: 5, //Progress bar height
-            color: "#BFD8D2", //Progress bar background color
+            color: "#aec6cf", //Progress bar background color
             custom: false //If you make it true, you can add your custom div and see it's scroll progress on the page
         });
     });

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="pinterest" content="nopin"/>
 
-    <title>alexia bareno &mdash; ageless link</title>
+    <title>Alexia Bareno &mdash; Ageless Link</title>
 
     <!--TAB ICON-->
-    <link rel="icon" href="Images/icon.png">
+    <link rel="icon" href="Images/coffee.png">
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -25,40 +25,75 @@
 <!-- NAVIGATION BAR -->
 <nav id="nav">
     <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo">alexia bareno</a>
+        <a href="index.html" class="brand-logo">Alexia Bareno</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">portfolio</a></li>
-            <li><a href="about.html">about</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-            <li><a href="index.html">portfolio</a></li>
-            <li><a href="about.html">about</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </div>
 </nav>
 
 
-<!-- ABOUT -->
-<div id="about">
+<!-- INTRO -->
+<div id="intro">
     <div class="text">
         <div class="wrapper">
-            <h1 id="greeting">ageless link;</h1>
-            <p>Ageless Link, in partnership with
-                <a class="link" target="_blank" href="http://agelessalliance.org/">Ageless Alliance</a>,
-                is a nonprofit web solution that bridges volunteers with isolated elders in Orange County as a
-                prevention for elder abuse, neglect, and exploitation. This project came from my senior design course
-                at UC Irvine.
+            <div class="imagegallery">
+                <img src="Images/AGELESS/agelesslanding.png"/>
+            </div>
+            <h1>Ageless Link: A Portal for Volunteers & Administrators</h1>
+            <p>UX Research &mdash; Web</p>
+            <div class="imagegallery">
+                <img src="Images/AGELESS/difference.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- BACKGROUND -->
+<div id="background">
+    <div class="text">
+        <div class="wrapper">
+            <h2>01 Background</h2>
+            <p>Ageless Link is a web portal for
+                <a class="link" target="_blank" href="http://agelessalliance.org/">Ageless Alliance</a> volunteers and
+                administrators. It gives volunteers onboarding support and allows them to log their service hours and
+                find out which elder they've been paired with. The administrator is provided a dashboard showing
+                volunteer activity across the organization. Ageless Link also allows visitors to refer an elder to the
+                Ageless Alliance program.
             </p>
 
+            <h3>How Does Ageless Link Work?</h3>
+            <p><b>For a volunteer:</b></p>
+            <ol>
+                <li>
+                    After signing up, the user completes a checklist of items to become an Ageless Link volunteer.
+                </li>
+                <li>
+                    Upon approval, volunteers can log in and request to be paired with an elder.
+                </li>
+                <li>
+                    After visiting/calling an elder, the volunteer can log in their hours online.
+                </li>
+            </ol>
+
+            <p><b>For an admin:</b></p>
+            <ol>
+                <li>
+                    After log in, the admin sees a dashboard showing total service hours, new applications,
+                    volunteer-elder pairings, hibernating volunteers, and more.
+                </li>
+            </ol>
+
+            <h3>Team & Roles</h3>
             <p>
-                Our solution pairs volunteers with elders, allows volunteers to record their service hours, and gives
-                the administrator access to a dashboard that provides an overview of volunteer activity which includes
-                logged service hours, new volunteer applications, and volunteer-elder matches.
-            </p>
-
-            <p><b>Role:</b> As a UX Designer, I conducted user research, produced sketches and wireframes using Axure,
-                and helped with web development (Bootstrap, HTML, and CSS.)
+                I worked on this project with three peers from my Senior Design class at UC Irvine. We conducted user
+                interviews, wireframing, and web development together. My role was client interaction and sketching.
             </p>
         </div>
     </div>
@@ -66,119 +101,69 @@
 
 <!--PROBLEM-->
 <div id="problem">
-    <div class="text2">
-        <div class="wrapper">
-            <h1>what's the problem?</h1>
-            <p>
-                The founder of Ageless Alliance initially asked for a creative software solution (computer and phone
-                use) that collects information from elders and volunteers. I felt that we did not have enough
-                information to understand what was being asked of us &mdash; was there a current method of collecting
-                information that didn't work? What about it wasn't working? A peer and I decided to meet with the
-                founder and ask her questions to learn more about her organization and to identify the problem(s).
-            </p>
-
-            <p>
-                Our research on Ageless Alliance began with interviewing the founder and the social media manager/admin.
-                They explained the mission of the organization and its involvement with the elderly community. We
-                learned that the organization's most valuable resource was its volunteer group which devotes
-                time to assist elders with everyday tasks and most importantly, keeps the elders company by visiting
-                their homes every so often. We asked our clients about the challenges they were facing in managing the
-                organization and discovered that managing volunteer groups and member information was the problem.
-                We learned that:
-            </p>
-
-            <ol>
-                <li>It was hard to keep track of all elder-volunteer matches as they were manually done</li>
-                <li>There was no visibility into volunteer activity and the volunteers did not always log in hours so
-                    the organization assumed they didn't visit the elder</li>
-                <li>The volunteers only knew who and when to visit after receiving a call from a lead member</li>
-                <li>The volunteers weren't always able to drive out to visit the elder which made some elders feel
-                    sad</li>
-            </ol>
-
-            <p>
-                We understood that the founder wanted an improved way to match elders with volunteers (these matches
-                are the 'information' she was referring to in her initial request), but that she really needed a better
-                way to direct and track volunteer activity. The problem then became clear: <b>How can we create and
-                track volunteer-elder matches?</b>
-            </p>
-
-            <p>
-                After discussion, my team and our partner agreed that a website (portal) would benefit the organization
-                greatly. Volunteers would use it to log in their hours and to see who they had been matched with. They
-                would also be able to log their hours on the go via their mobile device. The administrator(s) would
-                access a dashboard of volunteer activity. Our clients also asked to make available information about the
-                organization and about how to become a volunteer.
-            </p>
-
-            <p>
-                Prior to beginning the design of our website, I did a competitive analysis of three similar sites to become
-                aware of what other sites had content-wise and to see what worked and what didn't.
-            </p>
-        </div>
-    </div>
-</div>
-
-<!-- USERS -->
-<div id="users">
     <div class="text">
         <div class="wrapper">
-            <h1>meeting our users</h1>
+            <h2>02 Research</h2>
             <p>
-                Now that we had a clear view of our problem, the next step was to gain a clear understanding of our
-                users: the volunteers and the administrator(s). We did not include elders for two reasons: (a) although
-                many elders are technologically savvy, not all are and we did not want to risk the possibility of
-                excluding some of our elders from being a part of this program, and (b) all relevant elder information
-                is already held by the organization, so there's no need for an elder to have an account.
+                To design a solution that improved the volunteer and admin experience, we had to find out <i>what</i>
+                were the issues for both groups and <i>why</i>. Here is a summary of our research findings:
             </p>
 
-            <p>
-                I helped conduct interviews with 5 volunteers to learn more about the volunteer role and to identify
-                any pain points that might be present in the volunteer routine. Our volunteers were men and women of
-                ages 40-54 who felt comfortable using the internet, computers, and mobile devices.
-            </p>
+            <ul class="bullet">
+                <li>It was <b>hard to keep track</b> of all elder-volunteer matches as they were <b>manually done</b></li>
+                <li>There was <b>no visibility</b> into volunteer activity for the admins</li>
+                <li>Volunteers did not always log in hours because they had to do so <b>in person</b></li>
+                <li>Volunteers only knew who and when to visit after <b>receiving a call from a lead member</b></li>
+                <li>Volunteers weren't always able to drive out to visit the elder &mdash; which made elders feel <b>sad and
+                alone</b> &mdash; because they <b>found out last minute</b>
+                </li>
+            </ul>
 
-            <h3>volunteers</h3>
+            <h3>User Interviews</h3>
+            <h4>VOLUNTEERS</h4>
             <div class="imagegallery">
                 <img src="Images/AGELESS/ageless%20link%20personas.png"/>
             </div>
 
-            <h3>key insights and opportunities</h3>
-            <p><b>VOLUNTEERS</b></p>
+            <h4>Key Insights & Opportunities</h4>
             <p><b>How might we...</b> make it easy for volunteers to log in hours?</p>
-            <ul>
+            <ul class="bullet">
                 <li>Volunteers have other responsibilities and driving to the office to log hours can be inconvenient</li>
             </ul>
             <p><b>How might we...</b> let volunteers know who to contact for assistance?</p>
-            <ul>
+            <ul class="bullet">
                 <li>Depending on the situation, volunteers may need to call or message. Establishing a 'help' center
                     can direct volunteers to the right people</li>
             </ul>
             <p><b>How might we...</b> inform volunteers of their duties as a volunteer?</p>
-            <ul>
+            <ul class="bullet">
                 <li>Volunteers are given a short guide to what's expected of them, but establishing a comprehensive
                     online guide may help both to inform the volunteer and to reduce paper use</li>
             </ul>
 
-            <h3>administrator</h3>
+            <div>
+                <br>
+                <br>
+            </div>
+
+            <h4>ADMINISTRATOR</h4>
             <div class="imagegallery">
                 <img src="Images/AGELESS/AL%20admin%20persona.png"/>
             </div>
 
-            <h3>key insights and opportunities</h3>
-            <p><b>ADMINISTRATOR</b></p>
+            <h4>Key Insights & Opportunities</h4>
             <p><b>How might we...</b> assist the admin in matching and tracking volunteer-elder pairs?</p>
-            <ul>
+            <ul class="bullet">
                 <li>If we can automatically pair volunteers with elders, we can help the administrator devote her
                     time to other important tasks</li>
             </ul>
             <p><b>How might we...</b> simplify the process of processing volunteer applications?</p>
-            <ul>
+            <ul class="bullet">
                 <li>Applying online would rid of paper applications and make it easier to keep track of which ones
                     need to be processed</li>
             </ul>
             <p><b>How might we...</b> give the admin visibility into volunteer activity?</p>
-            <ul>
+            <ul class="bullet">
                 <li>If we can notify the admin about new applicants, hibernating volunteers, active volunteers, etc. then
                     we can make it less stressful for leadership to run the organization</li>
             </ul>
@@ -186,13 +171,17 @@
     </div>
 </div>
 
-<!--DESIGN-->
-<div id="design">
+<!-- PLANNING -->
+<div id="planning">
     <div class="text">
         <div class="wrapper">
-            <h1>drafting the solution</h1>
+            <h2>03 Planning</h2>
+            <p>After conducting our research, we knew to deliver a solution that would streamline the volunteer experience
+            and also deliver the admin insight into member activities.</p>
+
+            <h3>Sketches</h3>
             <p>
-                I created the following sketches to show how our volunteers would be navigating the website. These
+                I created the following sketches to outline the volunteers' interaction with the website. These
                 led to more discussions about what we wanted the volunteer to be able to do.
             </p>
 
@@ -200,12 +189,13 @@
                 <img src="Images/AGELESS/FIRSTGEN/AgelessConnectSitemap.png"/>
             </div>
 
+            <h3>Wireframes</h3>
             <p>
-                I proceeded to help create mockups &mdash; seen below. Following approval from our partner,
-                two of our team members met with 5 volunteers to test them for feedback. These were done using Axure.
+                My team and I proceeded to create wireframes using Axure. Following approval from our partner,
+                two of our team members met with five volunteers to test them for feedback.
             </p>
 
-            <h3>volunteer portal</h3>
+            <h4>Volunteer Portal</h4>
             <div class="imagegallery">
                 <img src="Images/AGELESS/FIRSTGEN/home.png"/>
                 <img src="Images/AGELESS/FIRSTGEN/login.png"/>
@@ -214,24 +204,17 @@
                 <img src="Images/AGELESS/FIRSTGEN/contact.png"/>
             </div>
 
-            <h3>administrator portal</h3>
+            <h3>Administrator Portal</h3>
             <div class="imagegallery">
                 <img src="Images/AGELESS/FIRSTGEN/admin.png"/>
             </div>
 
             <p>
-                Our partner and the volunteers were pleased and some minor changes were asked of us. We then moved on
+                Our partner and the volunteers were pleased and some minor changes were requested. We then moved on
                 to build our prototype.
             </p>
-        </div>
-    </div>
-</div>
 
-<!--PROTOTYPE-->
-<div id="prototype">
-    <div class="text2">
-        <div class="wrapper">
-            <h1>prototype</h1>
+            <h3>Prototype</h3>
             <p>
                 Our <a class="link" target="_blank" href="https://ageless-link.firebaseapp.com/">prototype</a> was
                 created using Bootstrap and open source code. We used Firebase as our database manager to store all
@@ -239,7 +222,7 @@
                 account below.
             </p>
 
-            <h3>volunteer portal</h3>
+            <h4>Volunteer Portal</h4>
             <div class="imagegallery">
                 <img src="Images/AGELESS/aahome.png"/>
                 <img src="Images/AGELESS/aaloghistory.png"/>
@@ -256,7 +239,7 @@
                 finish this portion of our prototype.
             </p>
 
-            <h3>admin portal</h3>
+            <h4>Administrator Portal</h4>
             <div class="imagegallery">
                 <img src="Images/AGELESS/admin.png"/>
             </div>
@@ -266,10 +249,11 @@
 
 <!--PRESENTATION-->
 <div id="presentation">
-    <div class="text2">
+    <div class="text">
         <div class="wrapper">
-            <h1>show time!</h1>
-            <p>Part of our project involved a 4 minute final presentation during the showcase event. I’ve included a
+            <h2>04 Presentation</h2>
+            <p>
+                Part of our project involved a 4 minute final presentation during the showcase event. I’ve included a
                 few images of our poster and the event below.
             </p>
             <div class="imagegallery">
@@ -285,7 +269,7 @@
 <div id="reflection">
     <div class="text">
         <div class="wrapper">
-            <h1>reflection</h1>
+            <h1>05 Reflection</h1>
             <p>
                 The biggest challenge was identifying the problem because our client had a difficult time explaining
                 what she needed to be done. This project taught me that research is imperative to projects like this
@@ -313,7 +297,7 @@
                 <i class="material-icons black-text">arrow_upward</i>
             </a>
         </div>
-        <div><p>design + content &copy;2017 alexia bareno</p></div>
+        <div><p>Design + Content &copy;2017 Alexia Bareno</p></div>
     </div>
 </footer>
 
@@ -329,7 +313,7 @@
         /**PROGRESS BAR (https://github.com/mburakerman/prognroll)/**/
         $("body").prognroll({
             height: 5, //Progress bar height
-            color: "#BFD8D2", //Progress bar background color
+            color: "#aec6cf", //Progress bar background color
             custom: false //If you make it true, you can add your custom div and see it's scroll progress on the page
         });
     });
