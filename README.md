@@ -3,7 +3,7 @@
 *Design + Content on this portfolio belongs to me unless stated. For open source code, I have linked to where I found it directly on
 the HTML/CSS/JavaScript files.*
 
-### Mockup Sources (.PSD files)
+### Mockup Template Sources (.PSD files)
 * Mac-mockup: http://www.pixlov.com/free-mockups/macbook-psd-mockup
 * Mac-canvas-mockup: http://www.freepik.com/free-psd/laptop-mock-up-design_1042448.htm'
 * iPhone hand mockup: http://www.dailyfreepsd.com/psd/mobile-phone-psd/iphone-5s-mockup-template-hand-psd.html
