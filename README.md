@@ -1,7 +1,7 @@
 # alexiabareno.github.io
 ## Personal UX Portfolio
 *Design + Content on this portfolio belongs to me unless stated. For open source code, I have linked to where I found it directly on
-the HTML files.*
+the HTML/CSS/JavaScript files.*
 
 ### Mockup Sources (.PSD files)
 * Mac-mockup: http://www.pixlov.com/free-mockups/macbook-psd-mockup
