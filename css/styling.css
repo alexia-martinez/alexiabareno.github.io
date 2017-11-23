@@ -13,7 +13,7 @@ html {
 
 body{
     font-family: Lato, Source Sans Pro, sans-serif;
-    color: #5c5c5c;
+    color: #101010/*5c5c5c*/;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -25,27 +25,27 @@ body{
 
 /* MENU */
 nav .button-collapse i {
-    color: #5c5c5c;
+    color: #101010/*5c5c5c*/;
 }
 
 .nav-wrapper {
     background: #ffffff;
-    border-bottom: 2px #aec6cf/*#bfd8d2*/ solid;
+    border-bottom: 2px #e17e66/*#aec6cf*//*#bfd8d2*/ solid;
     width: 100%;
     height: auto;
 }
 
 .nav-wrapper li a {
-    color: #5c5c5c;
+    color: #101010/*#5c5c5c*/;
     font-weight: bold;
 }
 
 .nav-wrapper li a:hover {
-    color: #5c5c5c;
+    color: #101010/*#5c5c5c*/;
 }
 
 .nav-wrapper .brand-logo {
-    color: #5c5c5c;
+    color: #101010/*#5c5c5c*/;
 }
 
 .nav-wrapper .brand-logo {
@@ -82,7 +82,7 @@ nav .button-collapse i {
 .media-object-section h1 {
     font-size: 2.5em;
     font-weight: bold;
-    color: #5c5c5c/*#eb4141*/;
+    color: #101010/*#5c5c5c*//*#eb4141*/;
 }
 
 .media-object-section p {
@@ -145,7 +145,7 @@ nav .button-collapse i {
     /*font-family: Proxima Nova, Source Sans Pro, sans-serif;*/
     text-decoration: none;
     font-weight: bold;
-    color: /*#ffa291*/#dcb239/*85C6A9*/;
+    color: #e17e66/*#ffa291*//*#dcb239*//*85C6A9*/;
     transition: color 0.5s ease;
 }
 
@@ -153,12 +153,12 @@ nav .button-collapse i {
     /*font-family: Proxima Nova, Source Sans Pro, sans-serif;*/
     text-decoration: none;
     font-weight: bold;
-    color: /*#ffa291*/#E3C363/*85C6A9*/;
+    color: #f0bfb3/*#ffa291*//*#E3C363*//*85C6A9*/;
     transition: color 0.5s ease;
 }
 
 .link:hover {
-    color: #5c5c5c;
+    color: #101010/*#5c5c5c*/;
 }
 
 /* ABOUT/TEXT AREAS */
@@ -196,7 +196,7 @@ nav .button-collapse i {
     margin-right: 3%;
     font-size: 1.3em;
     font-weight: bold;
-    color: #FF6347;
+    color: #5e5e5e/*FF6347*/;
 }
 
 .text p, ol {
@@ -260,7 +260,7 @@ ul.bullet2, ul.bullet2 > li {
 
 /*DISCLAIMER*/
 #disclaimer {
-    color: #FF6347;
+    color: #373737;
 }
 
 /*PHOTOGRAPHY*/
@@ -285,7 +285,7 @@ ul.bullet2, ul.bullet2 > li {
 }
 
 .border {
-    border: 2px solid #5e5e5e;
+    border: 2px solid #101010/*#5e5e5e*/;
 }
 
 /*PHOTOGRAPHS*/
@@ -310,7 +310,7 @@ footer {
     font-family: Proxima Nova, Source Sans Pro, sans-serif;
     */
     font-size: 1em;
-    color: #5c5c5c;
+    color: #101010/*#5c5c5c*/;
     float: left;
     margin-left: 3%;
     padding-top: 1%;

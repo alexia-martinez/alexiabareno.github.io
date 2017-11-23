@@ -4673,14 +4673,14 @@ small {
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   font-family: Lato, Source Sans Pro, sans serif;
   font-weight: bold;
-  color: #dcb239;
+  color: #e17e66/*#dcb239*/;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-  color: #E3C363;
+  color: #f0bfb3/*#E3C363*/;
 }
 
 .card .card-reveal {
