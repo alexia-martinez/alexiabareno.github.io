@@ -1,4 +1,4 @@
-# alexiabareno.github.io
+# alexia-martinez.github.io
 ## Personal UX Portfolio
 *Design + Content on this portfolio belongs to me unless stated. For open source code, I have linked to where I found it directly on
 the HTML/CSS/JavaScript files.*
